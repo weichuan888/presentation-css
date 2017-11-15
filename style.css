@@ -1,0 +1,81 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+
+
+}
+html, body {
+  height: 100%;
+}
+.main{
+  background-color: blue;
+  height: 100%;
+}
+.un{
+  background-color: #16232E;
+  width: 33.33%;
+  float: left;
+  height: 100%;
+  color: white;
+
+}
+ h1 {
+  font-size: 2em;
+  font-family: Helvetica;
+  text-align: center;
+  padding-top: 70%;
+}
+
+ p {
+  font-size: 4em;
+  color: white;;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+ h2 {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Helvetica;
+  border: 1px solid white;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.deux {
+  background-color: #63C3D1;
+  width: 33.33%;
+  float: left;
+  display: inline-block;
+  height: 100%;
+  color: white;
+}
+
+.trois {
+  background-color: #16232E;
+  width: 33.33%;
+  float:left;
+  display: inline-block;
+  height: 100%;
+  color: white;
+}
+
+h2:hover {
+  background-color: white;
+  color:red;
+  border: 1px solid red;
+}
+
+.slogan{
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 5%;
+  font-size: 1.5em;
+  width: 100%;
+
+}
