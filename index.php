@@ -13,7 +13,7 @@ $query = 'INSERT INTO categories (nom, description) VALUES (?, ?);';
 $prep = $pdo->prepare($query);
  
 $prep->bindValue(1, 'Tran', PDO::PARAM_STR);
-$prep->bindValue(2, 'ceci est un test pour desc', PDO::PARAM_STR);
+$prep->bindValue(2, 'ceci est un test pour test desc', PDO::PARAM_STR);
 $prep->execute();
 $resultat = $pdo->query('SELECT * FROM categories');
 while ($donnees = $resultat->fetch())
