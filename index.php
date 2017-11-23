@@ -9,7 +9,7 @@ catch(Exception $e)
     // En cas d'erreur, on affiche un message et on arrête tout
         die('Erreur : '.$e->getMessage());
 }
-$query = 'INSERT INTO classe (etudiant_id, last_name) VALUES (?, ?);';
+$query = 'INSERT INTO classe (title, last_name) VALUES (?, ?);';
 $prep = $pdo->prepare($query);
  
 $prep->bindValue(1, 'Tran', PDO::PARAM_STR);
@@ -19,7 +19,7 @@ $resultat = $pdo->query('SELECT * FROM classe');
 while ($donnees = $resultat->fetch())
 {
   echo '<br/>';
-  echo $donnees['etudiant_id'];
+  echo $donnees['title'];
   echo ' : ';
   echo $donnees['last_name'];
 }
