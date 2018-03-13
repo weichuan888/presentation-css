@@ -26,14 +26,14 @@ html, body {
   padding-top: 70%;
 }
 
- p {
+ h2 {
   font-size: 4em;
   color: white;;
   text-align: center;
   font-family: Helvetica;
 }
 
- h2 {
+ h3 {
   font-size: 15px;
   text-align: center;
   margin-top: 10px;
@@ -64,7 +64,7 @@ html, body {
   color: white;
 }
 
-h2:hover {
+h3:hover {
   background-color: white;
   color:red;
   border: 1px solid red;
